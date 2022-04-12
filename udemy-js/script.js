@@ -58,215 +58,215 @@ console.log('My age is ' + $age + ' years old.');
 
 //////// Basic Operator ////////==============================================
 
-// var $totalDistance, $distanceAlex, $distanceSam;
+var $totalDistance, $distanceAlex, $distanceSam;
 
-// $totalDistance = 20;
-// $distanceAlex = $totalDistance - 12;
-// $distanceSam = $totalDistance - 7;
+$totalDistance = 20;
+$distanceAlex = $totalDistance - 12;
+$distanceSam = $totalDistance - 7;
 
-// console.log($distanceSam);
+console.log($distanceSam);
 
-// console.log($distanceSam * 2);
+console.log($distanceSam * 2);
 
-// console.log($distanceSam / 2);
+console.log($distanceSam / 2);
 
-//logical operator
+// /// logical operator
 
-// var $distanceToSch, $distanceToHome;
+var $distanceToSch, $distanceToHome;
 
-// $distanceToHome = 14;
-// $distanceToSch = 6;
+$distanceToHome = 14;
+$distanceToSch = 6;
 
-//bool
-// var $isCloser = $distanceToHome > $distanceToSch;
+bool
+var $isCloser = $distanceToHome > $distanceToSch;
 
-// console.log($isCloser);
+console.log($isCloser);
 
 
 //BOOLEAN LOGIC==============================================
 
 //LOGICAL OPERATOR==============================================
 
-// var a = 15;
-// var b = 11;
-// var d = (a > b) && !(b != '11' && a == '15');
+var a = 15;
+var b = 11;
+var d = (a > b) && !(b != '11' && a == '15');
 
-// console.log(d);
+console.log(d);
 
 //CONDITIONAL STATEMENT ==============================================
-// if, else if, else
+////// if, else if, else
 
-// var $grade;
+var $grade;
 
-// $grade = 87
+$grade = 87
 
-// if ($grade < 40) {
+if ($grade < 40) {
 
-//     console.log('You Failed E');
-// } 
-// else if ($grade >= 40 && $grade < 50) {
+    console.log('You Failed E');
+} 
+else if ($grade >= 40 && $grade < 50) {
 
-//     console.log('You pass with D')
-// }
-// else if ($grade >= 50 && $grade < 60) {
+    console.log('You pass with D')
+}
+else if ($grade >= 50 && $grade < 60) {
 
-//     console.log('You pass with C')
-// }
-// else if ($grade >= 60 && $grade < 70) {
+    console.log('You pass with C')
+}
+else if ($grade >= 60 && $grade < 70) {
 
-//     console.log('You pass with B')
-// } 
-// else if ($grade >= 70 && $grade < 100) {
+    console.log('You pass with B')
+} 
+else if ($grade >= 70 && $grade < 100) {
 
-//     console.log('You pass with A')
-// }
-// else {
+    console.log('You pass with A')
+}
+else {
 
-//     console.log('You passed!');
-// }
+    console.log('You passed!');
+}
 
 // ==============================================
 
-// var $age;
+var $age;
 
-// $age = 20;
+$age = 20;
 
-// if ($age <18)
-// {
-//     console.log('You cannot enter the cafe');
-// }
-// else if ($age >= 18 && $age < 23)
-// {
-//     console.log('You can enter but cannot drink alcohol');
-// }
-// else 
-// {
-//     console.log('You can enter and drink alcohol');
-// }
+if ($age <18)
+{
+    console.log('You cannot enter the cafe');
+}
+else if ($age >= 18 && $age < 23)
+{
+    console.log('You can enter but cannot drink alcohol');
+}
+else 
+{
+    console.log('You can enter and drink alcohol');
+}
 
 
 //TERNARY OPERATOR ==============================================
 
-// var $grade = 12;
+var $grade = 12;
 
-// $grade < 45 
-// ? console.log('You got E') 
-// : console.log('You got A')
+$grade < 45 
+? console.log('You got E') 
+: console.log('You got A')
 
-// var $result = $grade < 45 ? 'Failed' : 'Passed';
+var $result = $grade < 45 ? 'Failed' : 'Passed';
 
-// console.log($result);
+console.log($result);
 
-// if($grade < 45)
-// {
-//     $result = 'Failed';
-// }
-// else
-// {
-//     $result = "Passed";
-// }
+if($grade < 45)
+{
+    $result = 'Failed';
+}
+else
+{
+    $result = "Passed";
+}
 
 //SWTITH CASE ==============================================
 
-// var $day;
+var $day;
 
-// $day = 'Monday';
+$day = 'Monday';
 
-// switch ($day) {
+switch ($day) {
 
-//     case 'Saturday':
-//         console.log('Its Saturday');
-//         break;
+    case 'Saturday':
+        console.log('Its Saturday');
+        break;
 
-//     case 'Monday':
-//         console.log('Its Monday');
-//         break;
+    case 'Monday':
+        console.log('Its Monday');
+        break;
 
-//     case 'Friday':
-//         console.log('ITs Friday');
-//         break;
+    case 'Friday':
+        console.log('ITs Friday');
+        break;
 
-//     default:
-//         console.log('What is the day?');
-//         break;
-// }
+    default:
+        console.log('What is the day?');
+        break;
+}
 
-//switch case with range condition
-// var $grade = 45;
+//// switch case with range condition
+var $grade = 45;
 
-// switch (true) {
+switch (true) {
 
-//     case ($grade < 40):
-//         console.log('E');
-//         break;
+    case ($grade < 40):
+        console.log('E');
+        break;
     
-//     case ($grade >= 40 && $grade < 50):
-//         console.log('D');
-//         break;
+    case ($grade >= 40 && $grade < 50):
+        console.log('D');
+        break;
     
-//     default:
-//         console.log('A');
-//         break;
-// }
+    default:
+        console.log('A');
+        break;
+}
 
 //QUIZ CODE 2
 
-// var $avgAlex = (90 + 80 + 95) / 3;
-// var $avgSara = (89 + 76 + 98) / 3;
-// var $avgNancy = (42 + 98 + 83) / 3;
+var $avgAlex = (90 + 80 + 95) / 3;
+var $avgSara = (89 + 76 + 98) / 3;
+var $avgNancy = (42 + 98 + 83) / 3;
 
-// if ($avgAlex > $avgSara && $avgAlex > $avgNancy)
-// {
-//     console.log('Highest average is Alex with ' + $avgAlex);
-// }
-// else if ($avgSara > $avgAlex && $avgSara > $avgNancy)
-// {
-//     console.log('Highest average is Sara with ' + $avgSara)
-// }
-// else if ($avgNancy > $avgAlex && $avgNancy > $avgAlex)
-// {
-//     console.log('Highest average is Nancy with ' + $avgNancy)
-// }
-// else 
-// {
-//     console.log('hehehe');
-// }
+if ($avgAlex > $avgSara && $avgAlex > $avgNancy)
+{
+    console.log('Highest average is Alex with ' + $avgAlex);
+}
+else if ($avgSara > $avgAlex && $avgSara > $avgNancy)
+{
+    console.log('Highest average is Sara with ' + $avgSara)
+}
+else if ($avgNancy > $avgAlex && $avgNancy > $avgAlex)
+{
+    console.log('Highest average is Nancy with ' + $avgNancy)
+}
+else 
+{
+    console.log('hehehe');
+}
 
 
 //LOOPs ==============================================
 
 // WHILE LOOP
 
-// var $number = 1;
+var $number = 1;
 
-// while ($number <= 10)
-// {
-//     console.log($number);
-//     $number+=2; //number = number + 1
-// }
+while ($number <= 10)
+{
+    console.log($number);
+    $number+=2; //number = number + 1
+}
 
 // loops quiz 1
 
-// var $evenNum = 132;
+var $evenNum = 132;
 
-// while ($evenNum < 149)
-// {
-//     console.log($evenNum);
+while ($evenNum < 149)
+{
+    console.log($evenNum);
 
-//     $evenNum += 2;
+    $evenNum += 2;
    
-// }
+}
 
-// while ($evenNum <= 148)
-// {
-//     if ($evenNum % 2 === 0) //mod % any number divided by 2 baki 0
-//     {
-//         console.log($evenNum);
+while ($evenNum <= 148)
+{
+    if ($evenNum % 2 === 0) //mod % any number divided by 2 baki 0
+    {
+        console.log($evenNum);
 
-//     }
+    }
 
-//     $evenNum += 1;
-// }
+    $evenNum += 1;
+}
 
 
 // for loop ====
@@ -276,33 +276,33 @@ console.log('My age is ' + $age + ' years old.');
 // }
 
 //print all number 1 - 10
-// for (var $num = 1; $num <= 10; $num++)
-// {
+for (var $num = 1; $num <= 10; $num++)
+{
 
-//     console.log($num);
-// }
+    console.log($num);
+}
 
 //odd number 132 - 148
 
-// for (var $i = 132; $i <= 148; $i++)
-// {
-//     if ( $i % 2 !==0)
-//     {
+for (var $i = 132; $i <= 148; $i++)
+{
+    if ( $i % 2 !==0)
+    {
 
-//         console.log($i);
-//     }
-// }
+        console.log($i);
+    }
+}
 
 //mod 7 number 25 - 100
 
-// for (var $i = 25; $i <= 100; $i++)
-// {
-//     if (($i % 7 === 0) && ($i % 5 === 0))
-//     {
+for (var $i = 25; $i <= 100; $i++)
+{
+    if (($i % 7 === 0) && ($i % 5 === 0))
+    {
 
-//         console.log($i);
-//     }
-// }
+        console.log($i);
+    }
+}
 
 // CONTINUE AND BREAK ==========
 
